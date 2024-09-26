@@ -1,0 +1,54 @@
+body{
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 1440px;
+    min-width: 375px;
+    width: 90vw;
+    height: 90vh;
+    background-color: hsl(212, 45%, 89%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container > .box{
+    background-color: white;
+    width: 14em;
+    padding: 1em;
+    border-radius: 0.625rem;
+}
+
+.box > img {
+    object-fit: cover;
+    border-radius: 0.3225rem;
+
+}
+.box  h5{
+    margin: 1em 0;
+    font-size: 1rem;
+    font-family: 'Outfit';
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.box p{
+    font-family: 'Outfit';
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+
+
+
+
+
